@@ -26,6 +26,12 @@ body {
     rgb(var(--background-start-rgb));
 }
 
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
